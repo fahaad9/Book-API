@@ -49,7 +49,7 @@ public class BookController {
     }
 
     //delete book
-    @DeleteMapping("/book/{id}")
+    @DeleteMapping("/books/{id}")
     public ResponseEntity<Object> deleteBook(@PathVariable(value = "id")long bookId) throws ResourceNotFoundException {
         bookRepository.findById(bookId)
                 .orElseThrow(() -> new ResourceNotFoundException("Book not found :: " + bookId));
