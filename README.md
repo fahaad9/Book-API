@@ -6,15 +6,15 @@ This project is written in Java using Spring Boot and does the following:
 * List all books in the library
 * CRUD operations on a single book
 
-# GET
+# GET - List all Books
 	http://localhost:8080/api/v1/books
-# GET By ID
+# GET By ID - List a specific Book
 	http://localhost:8080/api/v1/books/{id}
-# POST
+# POST - Add/Create a new Book
 	http://localhost:8080/api/v1/books
-# PUT
+# PUT - Update existing Book
 	http://localhost:8080/api/v1/books/{id}
-# DELETE
+# DELETE - Delete a Book
 	http://localhost:8080/api/v1/books/{id}
 	
 <hr/>
